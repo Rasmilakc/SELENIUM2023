@@ -36,8 +36,7 @@ public class Day15 {
 
 			if (browser.equals("chrome")) {
 				// code to setup browser
-				System.setProperty("webdriver.chrome.driver",
-						"C:\\Users\\ankurjain\\Desktop\\chromedriver\\chromedriver\\chromedriver.exe");
+				System.setProperty("webdriver.chrome.driver","C:\\Users\\ASUS\\Desktop\\chromedriver\\chromedriver.exe");
 				ChromeDriver driver = new ChromeDriver();
 				driver.get(url);
 				driver.findElement(By.cssSelector("#user-name")).sendKeys(un);
